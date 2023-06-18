@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">ToDo Management</string>
     <string name="to_do_list_page_title">Task List</string>
     <string name="to_do_add_page_title">Add a task</string>
     <string name="sort_by_target_date">Sort by target date</string>
