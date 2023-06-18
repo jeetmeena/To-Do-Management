@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="to_do_list_page_title">Task List</string>
+    <string name="to_do_add_page_title">Add a task</string>
+    <string name="sort_by_target_date">Sort by target date</string>
+    <string name="sort_by_ace_date">Sort by ACE ORDER</string>
+    <string name="task_title">Task Title</string>
+    <string name="time">Time</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="description">Do you want to delete “Classification”, this action can’t be undone.</string>
+    <string name="warning">Warning</string>
+</resources>
