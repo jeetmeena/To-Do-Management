@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sort_by_target"
+        android:title="@string/sort_by_target_date"
+        app:showAsAction="withText"
+
+        >
+    </item>
+
+    <item
+        android:id="@+id/sort_by_ace_date"
+        android:title="@string/sort_by_ace_date"
+        app:showAsAction="withText" />
+
+
+</menu>

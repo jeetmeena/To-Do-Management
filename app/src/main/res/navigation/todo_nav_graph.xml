@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/todo_navi_graph"
+    app:startDestination="@id/toDoListFragment">
+
+    <fragment
+        android:id="@+id/addToDoFragment"
+        android:name="com.example.myapplication.ui.addtodopage.AddToDoFragment"
+        android:label="AddToDoFragment" />
+    <fragment
+        android:id="@+id/toDoListFragment"
+        android:name="com.example.myapplication.ui.todolistpage.ToDoListFragment"
+        android:label="ToDoListFragment" />
+</navigation>
