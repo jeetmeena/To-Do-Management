@@ -16,7 +16,7 @@
 
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
-            android:layout_height="128dp"
+            android:layout_height="@dimen/dimen_128"
             app:liftOnScroll="true"
             android:fitsSystemWindows="true"
             android:background="@color/magnolia_white">
@@ -28,7 +28,7 @@
                 app:expandedTitleTextAppearance="?attr/textAppearanceHeadlineMedium"
                 app:expandedTitleTextColor="@color/black"
                 app:collapsedTitleTextColor="@color/black"
-                app:expandedTitleMargin="16dp"
+                app:expandedTitleMargin="@dimen/dimen_16"
                 app:maxLines="1"
                 android:fitsSystemWindows="true"
                 app:titleTextEllipsize="end"
@@ -72,7 +72,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|right"
-            android:layout_margin="26dp"
+            android:layout_margin="@dimen/dimen_26"
             app:srcCompat="@drawable/ic_add"
             style="@style/Widget.App.ExtendedFloatingActionButton"
             />
