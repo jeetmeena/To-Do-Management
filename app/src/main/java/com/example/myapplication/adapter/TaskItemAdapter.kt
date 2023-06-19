@@ -51,7 +51,7 @@ class TaskItemAdapter(val stateUpdater: StateUpdater) : RecyclerView.Adapter<Tas
         holder.binding.apply {
             taskDataItem=taskDataModel
             ibClose.setOnClickListener {
-                DeleteToDoDialog(binding.root.context,object :DeleteToDoDialog.YesNoListener{
+                DeleteToDoDialog(taskDataModel.title,binding.root.context,object :DeleteToDoDialog.YesNoListener{
                     override fun ok() {
                         stateUpdater.processFun(FunctionId.DELETE_TASK.value, Bundle().apply {
                             putInt("index", holder.adapterPosition)
