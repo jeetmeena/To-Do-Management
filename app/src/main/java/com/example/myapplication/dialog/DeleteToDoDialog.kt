@@ -13,6 +13,7 @@ import com.example.myapplication.databinding.DialogDeleteTodoBinding
 
 
 class DeleteToDoDialog(
+    val title:String,
     contextDialog: Context,
     private val listener: YesNoListener
 ) : Dialog(contextDialog) {
@@ -25,12 +26,12 @@ class DeleteToDoDialog(
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
-
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         window?.setBackgroundDrawableResource(android.R.color.transparent)
         window?.addFlags(WindowManager.LayoutParams.FLAG_BLUR_BEHIND);
         setCancelable(false)
         binding = DialogDeleteTodoBinding.inflate(layoutInflater).apply {
+            text="Do you want to delete “${title}”, this action can’t be undone."
             btnCancel.setOnClickListener {
                 dismiss()
                 listener.cancel()
